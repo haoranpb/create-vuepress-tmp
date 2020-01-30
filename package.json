@@ -2,6 +2,10 @@
   "name": "create-vuepress-tmp",
   "version": "0.0.3",
   "description": "A fork of create-vuepress with some updates",
+  "keywords": [
+    "vuepress",
+    "generator"
+  ],
   "files": [
     "lib",
     "index.js"
