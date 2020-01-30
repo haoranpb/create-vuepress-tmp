@@ -1,13 +1,13 @@
 {
   "name": "<%= name %>",
   "version": "0.0.1",
+  "private": true,
   "description": "<%= description %>",
-  "main": "index.js",
   "authors": {
     "name": "<%= author %>",
     "email": "<%= mail %>"
   },
-  "repository": "<%= repo %>/<%= name %>",
+  "repository": "<%= repo %>",
   "scripts": {
     "dev": "vuepress dev blog",
     "build": "vuepress build blog"
