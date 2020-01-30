@@ -6,8 +6,6 @@ const chalk = require('chalk');
 const run = require('./lib/run');
 const { name, version } = require('./package');
 const debug = require('debug');
-// const { existsSync } = require('fs');
-// const { join } = require('path');
 
 // Get cli arguments
 const args = yParser(process.argv.slice(2));
@@ -15,13 +13,10 @@ const args = yParser(process.argv.slice(2));
 // Output version with -v, --version flag
 if (args.v || args.version) {
   console.log(name, version);
-  // ? what is this for
-  // if (existsSync(join(__dirname, '.local'))) {
-  //   console.log(chalk.cyan('@local'));
-  // }
   process.exit(0);
 }
 
+// Enalbe debug mode with -d, --debug flag
 if (args.d || args.debug) {
   debug.enable('create-vuepress:*');
 }

@@ -1,7 +1,7 @@
 {
   "name": "create-vuepress-tmp",
-  "version": "0.0.2",
-  "description": "A fork of create-vuepress",
+  "version": "0.0.3",
+  "description": "A fork of create-vuepress with some updates",
   "files": [
     "lib",
     "index.js"
@@ -13,10 +13,10 @@
     "lint": "xo"
   },
   "repository": {
-    "url": "ludanxer/create-vuepress",
+    "url": "ludanxer/create-vuepress-tmp",
     "type": "git"
   },
-  "author": "ludanxer<ludanxer@icloud.com>",
+  "author": "ludanxer <ludanxer@icloud.com>",
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.1",
@@ -53,8 +53,5 @@
       "xo --fix",
       "git add"
     ]
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
   }
 }
