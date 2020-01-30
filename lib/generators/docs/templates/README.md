@@ -1,6 +1,14 @@
 # <%= name %>
 
-> <%= description %>
+<%= description %>
+
+For more details, please head VuePress's [documentation](https://vuepress.vuejs.org/).
+
+## Install
+
+```bash
+yarn install
+```
 
 ## Development
 
@@ -9,5 +17,6 @@ yarn dev
 yarn build
 ```
 
-For more details, please head VuePress's [documentation](https://v1.vuepress.vuejs.org/).
+## License
 
+Copyright (c) 2020, <%= author %>
