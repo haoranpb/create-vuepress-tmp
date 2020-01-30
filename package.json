@@ -20,7 +20,6 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.1",
-    "clipboardy": "^1.2.3",
     "debug": "^3.1.0",
     "execa": "^1.0.0",
     "fs-extra": "^8.0.1",
