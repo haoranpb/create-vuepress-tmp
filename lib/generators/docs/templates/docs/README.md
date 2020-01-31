@@ -1,6 +1,7 @@
 ---
 home: true
 heroImage: https://vuepress.vuejs.org/hero.png
+heroText: <%= name %>
 tagline: <%= description %>
 actionText: Quick Start →
 actionLink: /guide/
