@@ -33,4 +33,5 @@ query({
   targetDir: args._[0] || '.',
   debug: args.d || args.debug || false,
   remove: args.remove || false,
+  install: args.i || args.install || false,
 })
