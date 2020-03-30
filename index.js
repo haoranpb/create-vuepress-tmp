@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const yParser = require('yargs-parser')
 const semverSatisfies = require('semver/functions/satisfies')
 const chalk = require('chalk')
