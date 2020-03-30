@@ -12,8 +12,8 @@ Template based vuepress scaffolder.
 ```bash
 npx create-vuepress-tmp vuepress-starter # OR yarn create vuepress-tmp vuepress-starter
 cd vuepress-starter
-yarn install # OR npm install
-yarn docs:dev # OR npm run docs:dev
+npm install # OR yarn install
+npm run docs:dev # OR yarn docs:dev
 ```
 
 ## Boilerplates
@@ -24,7 +24,7 @@ Default: [vuepress-tmp](https://github.com/ludanxer/vuepress-tmp)
 
 ## History
 
-Previously, [0.1.2](https://github.com/ludanxer/create-vuepress-tmp/tree/89578b72818a182adff5a0045379c1666ddfc8ed) create-vuepress-tmp is simply a fork of [create-vuepress](https://github.com/vuepressjs/create-vuepress) with some minor updates (bump vuepress version, etc...)
+Previously, [create-vuepress-tmp@0.1.2](https://github.com/ludanxer/create-vuepress-tmp/tree/89578b72818a182adff5a0045379c1666ddfc8ed) is simply a fork of [create-vuepress](https://github.com/vuepressjs/create-vuepress) with some minor updates (bump vuepress version, etc...)
 
 ## Lisence
 
