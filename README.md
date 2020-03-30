@@ -1,26 +1,31 @@
 # create-vuepress-tmp
 
-This is a fork of [create-vuepress](https://github.com/vuepressjs/create-vuepress) with some updates.
+<p align="left">
+  <img src="https://badgen.net/npm/v/create-vuepress-tmp" />
+  <img src="https://badgen.net/npm/license/create-vuepress-tmp" />
+</p>
 
-The initial repo seems no longer actively maintained, so I fork it and release my own package. However, with some personal flavored changes I make, I realise that they may never be marged into the origin repo, so I create a new one for personal usage.
-
-This package will be abandoned once the origin repo is back again.
+Template based vuepress scaffolder.
 
 ## Usage
 
 ```bash
-yarn create vuepress-tmp [targetDir]
-cd targetDir
-yarn install
+npx create-vuepress-tmp vuepress-starter # OR yarn create vuepress-tmp vuepress-starter
+cd vuepress-starter
+yarn install # OR npm install
+yarn docs:dev # OR npm run docs:dev
 ```
 
 ## Boilerplates
 
-- [x] docs - Create a documentation project with VuePress.
-- [ ] blog - Create a blog with VuePress.
+Currently, a boilerplate needs to be a git repository.
 
-I seldomly need to create a blog site, so I never bother to update it.
+Default: [vuepress-tmp](https://github.com/ludanxer/vuepress-tmp)
+
+## History
+
+Previously, [0.1.2](https://github.com/ludanxer/create-vuepress-tmp/tree/89578b72818a182adff5a0045379c1666ddfc8ed) create-vuepress-tmp is simply a fork of [create-vuepress](https://github.com/vuepressjs/create-vuepress) with some minor updates (bump vuepress version, etc...)
 
 ## Lisence
 
-MIT, forked from [create-vuepress](https://github.com/vuepressjs/create-vuepress).
+[MIT](./LICENSE)
