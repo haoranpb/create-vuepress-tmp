@@ -10,6 +10,9 @@ const cli = require('cac')(name)
 cli
   .command('<targetDir>', 'target directory')
   .option('-d, --debug', 'enable debug mode')
+  .option('-b, --branch', 'specify which branch to clone', {
+    default: 'master',
+  })
   .option('-i, --install', 'install dependencies after scaffolding')
   .option('--remove', 'remove the created folder after scaffolding')
   .action((targetDir, options) => {
