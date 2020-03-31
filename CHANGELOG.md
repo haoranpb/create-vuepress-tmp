@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.5](https://github.com/ludanxer/create-vuepress-tmp/compare/v0.2.4...v0.2.5) (2020-03-31)
+
+
+### Features
+
+* allow specify branch in cli ([1b211cd](https://github.com/ludanxer/create-vuepress-tmp/commit/1b211cd6389f571bd9aec9843c9d0ab3004dc6af))
+
+
+### Bug Fixes
+
+* ignore images when compile ([d7bfd7d](https://github.com/ludanxer/create-vuepress-tmp/commit/d7bfd7d9f607ff4e8f48d4b49e7aa82fdb6dc4f8))
+
 ### [0.2.4](https://github.com/ludanxer/create-vuepress-tmp/compare/v0.2.3...v0.2.4) (2020-03-31)
 
 
