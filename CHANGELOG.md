@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.4](https://github.com/ludanxer/create-vuepress-tmp/compare/v0.2.3...v0.2.4) (2020-03-31)
+
+
+### Features
+
+* default fields for package.json ([1026a52](https://github.com/ludanxer/create-vuepress-tmp/commit/1026a52d6f0f542a052e9f0e95522fdade1a3f3e))
+
 ### [0.2.3](https://github.com/ludanxer/create-vuepress-tmp/compare/v0.2.2...v0.2.3) (2020-03-31)
 
 
