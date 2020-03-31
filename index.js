@@ -13,9 +13,7 @@ cli
   .option('-i, --install', 'install dependencies after scaffolding')
   .option('--remove', 'remove the created folder after scaffolding')
   .action((targetDir, options) => {
-    if (options.debug) {
-      debug.enable('create-vuepress:*')
-    }
+    if (options.debug) debug.enable('create-vuepress:*')
 
     query({
       targetDir: targetDir,
