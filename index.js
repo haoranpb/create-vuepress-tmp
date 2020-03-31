@@ -4,7 +4,7 @@ const semverSatisfies = require('semver/functions/satisfies')
 const chalk = require('chalk')
 const shell = require('shelljs')
 const query = require('./lib/query')
-const { name, version } = require('./package.json')
+const { name, version, engines } = require('./package.json')
 const debug = require('debug')
 const cli = require('cac')(name)
 
@@ -24,8 +24,8 @@ cli
     })
   })
 
-if (!semverSatisfies(process.version, '>= 8.0.0')) {
-  console.error(chalk.red('✘ Generator only works with Node v8.0.0 and up!'))
+if (!semverSatisfies(process.version, engines.node)) {
+  console.error(chalk.red('✘ Generator only works with Node ' + engines.node))
   process.exit(1)
 }
 
