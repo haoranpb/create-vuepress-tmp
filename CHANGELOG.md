@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/ludanxer/create-vuepress-tmp/compare/v0.2.5...v0.3.0) (2020-04-01)
+
+
+### Features
+
+* enable template level setting ([8bf0c31](https://github.com/ludanxer/create-vuepress-tmp/commit/8bf0c31882d957249f9f3381759c56accd936e4b))
+
+
+### Bug Fixes
+
+* branch cli option ([2c08493](https://github.com/ludanxer/create-vuepress-tmp/commit/2c0849386461d19953379222bd63367f6ed99a0f))
+
 ### [0.2.5](https://github.com/ludanxer/create-vuepress-tmp/compare/v0.2.4...v0.2.5) (2020-03-31)
 
 
