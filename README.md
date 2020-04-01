@@ -5,20 +5,19 @@
   <img src="https://badgen.net/npm/license/create-vuepress-tmp" />
 </p>
 
-Template based vuepress scaffolder.
+Template based VuePress scaffolder.
 
-## Usage
+## Quick Start
 
 ```bash
-npx create-vuepress-tmp vuepress-starter # OR yarn create vuepress-tmp vuepress-starter
+yarn create vuepress-tmp vuepress-starter --install
 cd vuepress-starter
-npm install # OR yarn install
-npm run docs:dev # OR yarn docs:dev
+yarn docs:dev
 ```
 
-## Boilerplates
+## Template
 
-Currently, a boilerplate needs to be a git repository.
+Currently, a template needs to be a git repository.
 
 Default: [vuepress-tmp](https://github.com/ludanxer/vuepress-tmp)
 
