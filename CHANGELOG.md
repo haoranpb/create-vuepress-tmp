@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.1](https://github.com/ludanxer/create-vuepress-tmp/compare/v0.3.0...v0.3.1) (2020-04-01)
+
+
+### Features
+
+* remove git repository check ([ea3859c](https://github.com/ludanxer/create-vuepress-tmp/commit/ea3859ccee32918ad3add01211adef64587b8a1a))
+* try to infer author and mail from npm ([8b228cc](https://github.com/ludanxer/create-vuepress-tmp/commit/8b228cc596d7f1254ba333336953971b57a9ad94))
+
+
+### Bug Fixes
+
+* remove tmp setting file after scaffolding ([3e3938e](https://github.com/ludanxer/create-vuepress-tmp/commit/3e3938e7978728112bfbe83208509880e2310479))
+
 ## [0.3.0](https://github.com/ludanxer/create-vuepress-tmp/compare/v0.2.5...v0.3.0) (2020-04-01)
 
 
