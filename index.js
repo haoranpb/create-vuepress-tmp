@@ -2,6 +2,7 @@
 
 const semverSatisfies = require('semver/functions/satisfies')
 const shell = require('shelljs')
+const chalk = require('chalk')
 const query = require('./lib/query')
 const { name, version, engines } = require('./package.json')
 const debug = require('debug')
@@ -25,12 +26,12 @@ cli
   })
 
 if (!semverSatisfies(process.version, engines.node)) {
-  console.error('✘ Generator only works with Node ' + engines.node)
+  console.error(chalk.red('✘ Generator only works with Node ' + engines.node))
   process.exit(1)
 }
 
 if (!shell.which('git')) {
-  console.error('✘ Generator needs git to work!')
+  console.error(chalk.red('✘ Generator needs git to work!'))
   process.exit(1)
 }
 
