@@ -1,7 +1,7 @@
 {
   "name": "create-vuepress-tmp",
   "version": "0.3.2",
-  "description": "A fork of create-vuepress with some updates",
+  "description": "Template based VuePress scaffolder",
   "keywords": [
     "vuepress",
     "generator"
@@ -20,6 +20,8 @@
     "index.js"
   ],
   "scripts": {
+    "docs:build": "vuepress build docs",
+    "docs:dev": "vuepress dev docs",
     "release": "standard-version"
   },
   "husky": {
@@ -56,6 +58,8 @@
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-angular": "^8.3.4",
+    "@vuepress/plugin-back-to-top": "^1.4.0",
+    "@vuepress/plugin-medium-zoom": "^1.4.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-prettier": "^3.1.2",
@@ -63,7 +67,8 @@
     "lint-staged": "^10.0.10",
     "prettier": "^2.0.2",
     "sort-package-json": "^1.40.0",
-    "standard-version": "^7.1.0"
+    "standard-version": "^7.1.0",
+    "vuepress": "^1.4.0"
   },
   "engines": {
     "node": ">=8.0.0"
