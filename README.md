@@ -7,7 +7,7 @@
 
 Template based VuePress scaffolder.
 
-![animation](https://github.com/ludanxer/create-vuepress-tmp/docs/.vuepress/hero.svg)
+![animation](https://github.com/ludanxer/create-vuepress-tmp/blob/master/docs/.vuepress/public/hero.svg)
 
 ## Quick Start
 
