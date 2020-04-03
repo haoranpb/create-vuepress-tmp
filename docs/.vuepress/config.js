@@ -13,7 +13,6 @@ module.exports = {
     repo: 'ludanxer/create-vuepress-tmp',
     docsDir: 'docs',
     editLinks: true,
-    editLinkText: 'Help us improve this page!',
     lastUpdated: 'Last Updated',
     nav: [
       {
@@ -32,7 +31,8 @@ module.exports = {
         collapsable: false,
         children: [
           ['', 'Introduction'],
-          'getting-started'
+          'getting-started',
+          'cli'
         ]
       }]
     },
@@ -41,5 +41,11 @@ module.exports = {
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
     require('./internal-plugin.js'),
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'UA-146772217-5'
+      }
+    ],
   ]
 }
