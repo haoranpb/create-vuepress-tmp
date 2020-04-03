@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.3](https://github.com/ludanxer/create-vuepress-tmp/compare/v0.3.2...v0.3.3) (2020-04-03)
+
+
+### Features
+
+* remove repository input ([68fcf96](https://github.com/ludanxer/create-vuepress-tmp/commit/68fcf96b10ed31a1109900e1bd344ddff23ec8ce))
+
 ### [0.3.2](https://github.com/ludanxer/create-vuepress-tmp/compare/v0.3.1...v0.3.2) (2020-04-01)
 
 
