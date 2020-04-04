@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.4](https://github.com/ludanxer/create-vuepress-tmp/compare/v0.3.3...v0.3.4) (2020-04-04)
+
+
+### Features
+
+* template based question ([52a2f54](https://github.com/ludanxer/create-vuepress-tmp/commit/52a2f54aa3d7ae27d130dd49058f5137f6998ccd))
+
 ### [0.3.3](https://github.com/ludanxer/create-vuepress-tmp/compare/v0.3.2...v0.3.3) (2020-04-03)
 
 
