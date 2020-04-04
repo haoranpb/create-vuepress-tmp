@@ -45,8 +45,6 @@ more details are available at: [command line interface](./cli.html)
 
 ## Template
 
-Currently, a template needs to be a git repository.
+There is one template maintained with `create-vuepress-tmp`: [vuepress-tmp](https://github.com/ludanxer/vuepress-tmp).
 
-There is a template maintained with `create-vuepress-tmp`: [vuepress-tmp](https://github.com/ludanxer/vuepress-tmp)
-
-It's recommanded to make template a [template repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-template-repository), so users can simply create a repository base on it or develop a new template base on it.
+File a [issue](https://github.com/ludanxer/create-vuepress-tmp/issues/new) if you develop a new template and want it to be listed here in the documentation site! To develop a template, see [Template](./template.html).

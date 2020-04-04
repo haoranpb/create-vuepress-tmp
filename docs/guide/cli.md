@@ -14,7 +14,7 @@ yarn create vuepress-tmp --help
 
 ### -i, --install
 
-Install dependencies after scaffolding, this flag will add one more question for you choose your preferred package manager (default: yarn).
+Install dependencies after scaffolding, this flag will also add one more question for you choose to your preferred package manager (default: yarn).
 
 ### -d, --debug
 

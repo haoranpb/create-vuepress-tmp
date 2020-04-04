@@ -32,7 +32,8 @@ module.exports = {
         children: [
           ['', 'Introduction'],
           'getting-started',
-          'cli'
+          'template',
+          'cli',
         ]
       }]
     },
