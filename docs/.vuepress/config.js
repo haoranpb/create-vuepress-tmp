@@ -7,7 +7,10 @@ module.exports = {
     ['link', { rel: 'icon', href: '/logo.png' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    [
+      'meta',
+      { name: 'apple-mobile-web-app-status-bar-style', content: 'black' },
+    ],
   ],
   themeConfig: {
     repo: 'ludanxer/create-vuepress-tmp',
@@ -21,32 +24,28 @@ module.exports = {
       },
       {
         text: 'VuePress',
-        link: 'https://vuepress.vuejs.org'
-      }
+        link: 'https://vuepress.vuejs.org',
+      },
     ],
     sidebar: {
-      '/guide/': [{
-        title: 'Guide',
-        path: '/guide/',
-        collapsable: false,
-        children: [
-          ['', 'Introduction'],
-          'getting-started',
-          'template',
-          'cli',
-        ]
-      }]
+      '/guide/': [
+        {
+          title: 'Guide',
+          path: '/guide/',
+          collapsable: false,
+          children: [
+            ['', 'Introduction'],
+            'getting-started',
+            'template',
+            'cli',
+          ],
+        },
+      ],
     },
   },
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
     require('./internal-plugin.js'),
-    [
-      '@vuepress/google-analytics',
-      {
-        'ga': 'UA-146772217-5'
-      }
-    ],
-  ]
+  ],
 }
